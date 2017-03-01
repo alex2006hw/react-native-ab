@@ -18,14 +18,15 @@ All you need is to `require` the `react-native-ab` module and then use the provi
 
 ```javascript
 
-var React = require('react-native');
+var React = require('react');
+var ReactNative = require('react-native');
 var {
   AppRegistry,
   StyleSheet,
   Text,
   View,
   TouchableHighlight
-} = React;
+} = ReactNative;
 var { Experiment, Variant } = require('react-native-ab');
 
 var rnabtest = React.createClass({
