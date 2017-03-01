@@ -1,9 +1,10 @@
-var React = require('react-native');
+var React = require('react');
+var ReactNative = require('react-native');
+var { PropTypes } = React;
 var {
   AsyncStorage,
-  PropTypes,
   View
-} = React;
+} = ReactNative;
 
 var Experiment = React.createClass({
 
